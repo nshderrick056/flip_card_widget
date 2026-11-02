@@ -12,14 +12,14 @@ class Car {
   const Car(this.name, this.image, this.fact);
 }
 
-// Put the matching image files in assets/cars/.
+// Put the matching image files in assets/.
 const cars = [
-  Car('Porsche 911', 'assets/cars/porsche_911.jpg', 'Made since 1964, always rear-engined.'),
-  Car('Ford Mustang', 'assets/cars/ford_mustang.jpg', 'Launched in 1964 and started the "pony car" class.'),
-  Car('Volkswagen Beetle', 'assets/cars/vw_beetle.jpg', 'Over 21 million of the original were built.'),
-  Car('Lamborghini Countach', 'assets/cars/lamborghini_countach.jpg', 'Famous for its scissor doors.'),
-  Car('Toyota Supra', 'assets/cars/toyota_supra.jpg', 'The MK4 is known for its 2JZ engine.'),
-  Car('Tesla Model S', 'assets/cars/tesla_model_s.jpg', 'An all-electric sedan launched in 2012.'),
+  Car('Porsche 911', 'assets/porsche_911.jpg', 'Made since 1964, always rear-engined.'),
+  Car('Ford Mustang', 'assets/ford_mustang.jpg', 'Launched in 1964 and started the "pony car" class.'),
+  Car('Volkswagen Beetle', 'assets/vw_beetle.jpg', 'Over 21 million of the original were built.'),
+  Car('Lamborghini Countach', 'assets/lamborghini_countach.jpg', 'Famous for its scissor doors.'),
+  Car('Toyota Supra', 'assets/toyota_supra.jpg', 'The MK4 is known for its 2JZ engine.'),
+  Car('Tesla Model S', 'assets/tesla_model_s.jpg', 'An all-electric sedan launched in 2012.'),
 ];
 
 class CarFlashcardsApp extends StatelessWidget {
